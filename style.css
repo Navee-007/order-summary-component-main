@@ -43,7 +43,7 @@ img{
 }
 
 .card{
-    width: 22rem;
+    width: 24rem;
     border-radius: 1rem;
     text-align: center;
     background-color: white;
@@ -52,7 +52,7 @@ img{
 }
 
 .hero-img-container{
-    margin-bottom: 0.5rem;
+    margin-bottom:0.75rem;
 
 }
 
@@ -64,11 +64,11 @@ img{
 .title{
     color: var(--dark-blue);
     font-size: 1.75rem;
-    margin-bottom: 0.5rem;
+    margin-bottom:0.75rem;
 
 }
 .discription{
-margin-bottom: 0.5rem;
+margin-bottom:0.75rem;
 color: var(--light-blue);
 padding: 0 2.5rem;
 line-height: 1.5;
@@ -79,7 +79,7 @@ line-height: 1.5;
     width: 90%;
     margin: 1rem auto;
     padding: 0.8rem ;
-    border-radius: 0.5rem;
+    border-radius:0.75rem;
     font-size: 1rem;
     font-weight: 700;
     cursor: pointer;

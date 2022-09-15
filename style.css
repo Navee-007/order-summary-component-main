@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --pala-blue: hsl(225, 100%, 94%);
+    --bright-blue: hsl(245, 75%, 52%);
+    --very-pala-blue:  hsl(225, 100%, 98%);
+    --light-blue:  hsl(224, 23%, 55%);
+    --dark-blue: hsl(223, 47%, 23%);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    width: 22rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-color: white;
+    box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.25);
+
+}
+
+.hero-img-container{
+    margin-bottom: 0.5rem;
+
+}
+
+.hero-img{
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.title{
+    color: var(--dark-blue);
+    font-size: 1.75rem;
+    margin-bottom: 0.5rem;
+
+}
+.discription{
+margin-bottom: 0.5rem;
+color: var(--light-blue);
+padding: 0 2.5rem;
+line-height: 1.5;
+}
+
+.btn{
+    display:block;
+    width: 90%;
+    margin: 1rem auto;
+    padding: 0.8rem ;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-blue{
+    background-color:var(--bright-blue) ;
+    color: var(--pala-blue);
+    border: 2px solid var(--bright-blue);
+    box-shadow: 2px 3px 6px var(--bright-blue),2px 3px 6px var(--bright-blue),2px 3px 6px var(--bright-blue);
+}
+.btn-blue:hover{
+    cursor: pointer;
+    background-color: white;
+    color:var(--bright-blue)  ;
+}
+
+.link-cancel{
+    display: block;
+        margin: 1rem 1rem 2rem auto;
+    color: var(--light-blue);
+}
+
+.detiles-section{
+    width: 90%;
+    padding: 10px;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(237, 237, 237);
+    border-radius: 1rem;
+}
+
+
+
+.plan{
+    font-size: 0.9rem;
+    font-weight: 900;
+    color: var(--dark-blue);
+}
+
+.price{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color:var(--light-blue) ;
+
+}
+.change{
+    text-decoration: underline;
+}

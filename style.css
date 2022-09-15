@@ -73,7 +73,7 @@ img {
 
 .discription {
     margin-bottom: 0.75rem;
-    color: var(--light-blue);
+    color: var(--dark-blue);
     padding: 0 2.5rem;
     line-height: 1.5;
 }
@@ -105,7 +105,7 @@ img {
 .link-cancel {
     display: block;
     margin: 1rem 1rem 2rem auto;
-    color: var(--pala-blue);
+    color: var(--dark-blue);
 }
 
 .detiles-section {
@@ -130,7 +130,7 @@ img {
 .price {
     font-weight: 400;
     font-size: 0.9rem;
-    color: var(--light-blue);
+    color: var(--dark-blue);
 
 }
 
